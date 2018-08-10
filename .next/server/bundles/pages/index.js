@@ -79,21 +79,46 @@ module.exports =
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link__ = __webpack_require__("next/link");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_link__);
 var _jsxFileName = "/Users/gulbadam/Practice/next-ssr/pages/index.js";
+
 
 
 var Index = function Index() {
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 2
+      lineNumber: 3
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 3
+      lineNumber: 4
     }
-  }, "HELLO"));
+  }, "HELLO"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
+    href: "/about",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("button", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    }
+  }, "About")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
+    href: "/robots",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("button", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    }
+  }, "Robots")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
@@ -105,6 +130,13 @@ var Index = function Index() {
 
 module.exports = __webpack_require__("./pages/index.js");
 
+
+/***/ }),
+
+/***/ "next/link":
+/***/ (function(module, exports) {
+
+module.exports = require("next/link");
 
 /***/ }),
 
